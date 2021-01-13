@@ -1,0 +1,42 @@
+.carousel-slide, .contact-sec{
+    margin-top: 50px;
+    background-color: #FCEAE8;
+    border-radius: 10px;
+}
+
+.color-button{
+    background-color: #FF136F;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 10px;
+}
+
+.text-color{
+    color: #FF136F;
+}
+
+.categories{
+    margin-top: 50px;
+}
+.categories img{
+    height: 100px;
+}
+
+.categories h1{
+    color: #fff;
+}
+
+.categories-w{
+    background-color: #FFA500;
+}
+.categories-b{
+    background-color: #DA70D6;
+}
+.categories-s{
+    background-color: #0000FF;
+}
+
+.custom-card{
+    border: none;
+    background-color: #fff;
+}
