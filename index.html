@@ -12,8 +12,8 @@
 
 
 <body>
-    <header class="container">
-        <section>
+    <header >
+        <section class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
@@ -25,9 +25,9 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Shoes</a>
-                            <a class="nav-link" href="#">Backpack</a>
-                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Subscribe</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
         </section>
 
 
-        <div id="carouselExampleIndicators" class="carousel slide  carousel-slide" data-bs-ride="carousel ">
+        <div id="carouselExampleIndicators" class="carousel slide  carousel-slide container" data-bs-ride="carousel ">
             <ol class="carousel-indicators">
                 <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
                 <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
@@ -120,14 +120,14 @@
             </div>
         </section>
 
-        <section class="container mt-5">
+        <section class="container mt-5" id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card custom-card h-100 shadow">
                         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Supply 350</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.</p>
                         </div>
@@ -140,7 +140,7 @@
                     <div class="card custom-card h-100 shadow">
                         <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Nike 360</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional
                                 content.</p>
                         </div>
@@ -153,7 +153,7 @@
                     <div class="card custom-card h-100 shadow">
                         <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Red Airmax</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This card has even longer content than the first to show that equal
                                 height action.</p>
@@ -166,7 +166,7 @@
             </div>
         </section>
 
-        <section class="container mt-5">
+        <section class="container mt-5" id="backpack">
             <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -215,11 +215,11 @@
             </div>
         </section>
 
-        <section style="height: 300px;" class="d-flex justify-content-center align-items-center contact-sec container mt-5">
+        <section style="height: 300px;" class="d-flex justify-content-center align-items-center contact-sec container mt-5" id="subscribe">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <h5>Get updates on sales, specials and more</h5>
-                <input type="text" placeholder="Enter your email address">
+                <input type="text" placeholder="Enter your email address"><br>
                 <button class="btn  color-button">Submit</button>
             </div>
         </section>
